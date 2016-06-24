@@ -1,0 +1,28 @@
+HARWELL-BOEING SPARSE MATRIX COLLECTION
+
+
+The manual for the Sparse Matrix Test Collection is in the file userguide.ps.Z.
+It is 84 pages long.
+ 
+The matrices are in compressed form in 43 files xxxx.data.Z, where xxxx
+is given below.  Documentation for each set is found in the Users' Guide.
+ 
+acoust.data.Z		counterx.data.Z		manteuffel.data.Z
+airtfc.data.Z		dwt.data.Z		nnceng.data.Z
+astroph.data.Z		econaus.data.Z		nucl.data.Z
+bcspwr.data.Z		econiea.data.Z		oilgen.data.Z
+bcsstruc1.data.Z	facsimile.data.Z	platz.data.Z
+bcsstruc2.data.Z	gemat.data.Z		pores.data.Z
+bcsstruc3.data.Z	grenoble.data.Z		psadmit.data.Z
+bcsstruc4.data.Z	jagmesh.data.Z		psmigr.data.Z
+bcsstruc5.data.Z	lanpro.data.Z		saylor.data.Z
+bcsstruc6.data.Z	laplace.data.Z		sherman.data.Z
+cannes.data.Z		lapu.data.Z		smtape.data.Z
+cegb.data.Z		lns.data.Z		steam.data.Z
+chemimp.data.Z		lockheed.data.Z		watt.data.Z
+chemwest.data.Z		lshape.data.Z
+cirphys.data.Z		lsq.data.Z
+
+The c program hsplit.c splits any of the above files into its constituent
+matrices.
+
